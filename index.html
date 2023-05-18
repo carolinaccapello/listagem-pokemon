@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Listagem Pokemon</title>
+
+    <link rel="icon" type="image/png" href="./src/imagens/pokeball.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/scrollbar.css">
+
+  </head>
+  <body>
+    <header>
+      <a href="#">
+        <img src="./src/imagens/pokeball.png" alt="pokebola" id="logo" />
+      </a>
+      <img
+        src="./src/imagens/pokemon-logo.png"
+        alt="pokemon gotta cath'em all"
+        class="titulo"
+      />
+
+      <button id="botao-alterar-tema">
+        <img
+          src="./src/imagens/sun.png"
+          alt="imagem do sol"
+          class="imagem-botao"
+        />
+      </button>
+    </header>
+    <main>
+      <ul class="listagem-pokemon">
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Bulbasaur</span>
+            <span>#001</span>
+          </div>
+
+          <img src="./src/imagens/bulbasaur.gif" alt="Bulbasaur" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Planta">Planta</li>
+            <li class="tipo Veneno">Veneno</li>
+          </ul>
+
+          <p class="descricao">
+            Há uma semente de planta em suas costas desde o dia que este Pókemon
+            nasce. A semente cresce lentamente.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Ivysaur</span>
+            <span>#002</span>
+          </div>
+
+          <img src="./src/imagens/ivysaur.gif" alt="Ivysaur" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Planta">Planta</li>
+            <li class="tipo Veneno">Veneno</li>
+          </ul>
+
+          <p class="descricao">
+            Quando o bulbo em suas costas cresce, parece perder a capacidade de
+            ficar de pé em suas patas traseiras.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Venusaur</span>
+            <span>#003</span>
+          </div>
+
+          <img src="./src/imagens/venusaur.gif" alt="Venusaur" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Planta">Planta</li>
+            <li class="tipo Veneno">Veneno</li>
+          </ul>
+
+          <p class="descricao">
+            Sua planta floresce quando está absorvendo energia solar. Ele
+            permanece em movimento para buscar a luz solar.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charmander</span>
+            <span>#004</span>
+          </div>
+
+          <img
+            src="./src/imagens/charmander.gif"
+            alt="Charmander"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo Fogo">Fogo</li>
+          </ul>
+
+          <p class="descricao">
+            Tem preferência por coisas quentes. Quando chove, diz-se que o vapor
+            jorra da ponta de sua cauda.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charmeleon</span>
+            <span>#005</span>
+          </div>
+
+          <img
+            src="./src/imagens/charmeleon.gif"
+            alt="Charmeleon"
+            class="gif"
+          />
+
+          <ul class="tipos">
+            <li class="tipo Fogo">Fogo</li>
+          </ul>
+
+          <p class="descricao">
+            Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda
+            ardente e corta com garras afiadas.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Charrizard</span>
+            <span>#006</span>
+          </div>
+
+          <img src="./src/imagens/charizard.gif" alt="Charrizard" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Fogo">Fogo</li>
+          </ul>
+
+          <p class="descricao">
+            Ele cospe fogo que é quente o suficiente para derreter pedregulhos.
+            Pode causar incêndios florestais soprando chamas.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Squirtle</span>
+            <span>#007</span>
+          </div>
+
+          <img src="./src/imagens/squirtle.gif" alt="Squirtle" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo água">Água</li>
+          </ul>
+
+          <p class="descricao">
+            Quando ele retrai seu longo pescoço em sua concha, ele esguicha água
+            com força vigorosa.
+          </p>
+        </li>
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Wartortle</span>
+            <span>#008</span>
+          </div>
+
+          <img src="./src/imagens/wartortle.gif" alt="Wartortle" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo água">Água</li>
+          </ul>
+
+          <p class="descricao">
+            É reconhecido como um símbolo de longevidade. Se sua concha tem
+            algas, esse Wartortle é muito antigo.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Blastoise</span>
+            <span>#009</span>
+          </div>
+
+          <img src="./src/imagens/blastoise.gif" alt="Blastoise" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo água">Água</li>
+          </ul>
+
+          <p class="descricao">
+            Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em
+            uma pitada, ele se retirará dentro de sua concha.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Vulpix</span>
+            <span>#010</span>
+          </div>
+
+          <img src="./src/imagens/vulpix.gif" alt="Vulpix" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Fogo">Fogo</li>
+          </ul>
+
+          <p class="descricao">
+            Enquanto jovem, tem seis lindas caudas. Quando cresce, várias novas
+            caudas nascem.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Ninetails</span>
+            <span>#011</span>
+          </div>
+
+          <img src="./src/imagens/ninetails.gif" alt="Ninetails" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Fogo">Fogo</li>
+          </ul>
+
+          <p class="descricao">
+            Dizem que vive 1.000 anos e cada uma de suas caudas é carregada de
+            poderes sobrenaturais.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Cubone</span>
+            <span>#012</span>
+          </div>
+
+          <img src="./src/imagens/cubone.gif" alt="Cubone" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Terra">Terra</li>
+          </ul>
+
+          <p class="descricao">
+            Quando a memória de sua falecida mãe o leva às lágrimas, seus gritos
+            ecoam tristemente dentro do crânio que ele usa em sua cabeça.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Totodile</span>
+            <span>#013</span>
+          </div>
+
+          <img src="./src/imagens/totodile.gif" alt="Totodile" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Água">Água</li>
+          </ul>
+
+          <p class="descricao">
+            Apesar da pequenez de seu corpo, as mandíbulas do Totodile são muito
+            poderosas. Embora o Pokémon possa pensar que está apenas beliscando
+            de brincadeira, sua mordida tem poder suficiente para causar
+            ferimentos graves.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Togepi</span>
+            <span>#014</span>
+          </div>
+
+          <img src="./src/imagens/togepi.gif" alt="Togepi" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Fada">Fada</li>
+          </ul>
+
+          <p class="descricao">
+            A concha parece estar cheia de alegria. Diz que se compartilhar boa
+            sorte terá quando for tratado com gentileza.
+          </p>
+        </li>
+
+        <li class="cartao-pokemon">
+          <div class="informacoes">
+            <span>Snorlax</span>
+            <span>#015</span>
+          </div>
+
+          <img src="./src/imagens/snorlax.gif" alt="Snorlax" class="gif" />
+
+          <ul class="tipos">
+            <li class="tipo Normal">Normal</li>
+          </ul>
+
+          <p class="descricao">
+            Não fica satisfeito a menos que coma mais de 880 libras de comida todos os dias. Quando termina de comer, vai imediatamente dormir.
+          </p>
+      </ul>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
